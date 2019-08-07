@@ -65,3 +65,43 @@ button {
   border:none;
 }
 
+.all-beers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.beer-container {
+
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ margin: 2%;
+ width: 25%;
+
+
+}
+
+.beer-img {
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px 
+}
+h3 {
+  color: rgba(145, 145, 145, 0.481);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+}
+p{
+  font-size: 12px;
+}
