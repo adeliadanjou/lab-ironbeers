@@ -105,3 +105,49 @@ h3 {
 p{
   font-size: 12px;
 }
+
+.random-beer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 40px 0 0 170px;
+}
+
+.random-beer-info {
+  width: 40%
+}
+
+.random-beer-img {
+  height: 170px;
+  margin-right: 70px
+  
+}
+
+.random-beer-tagline {
+  padding: 20px 0;
+}
+
+.random-beer-description {
+  margin-bottom: 20px;
+}
+
+h4{
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: disc;
+  margin: 0 0 10px 40px;
+  font-size: 12px;
+
+}
+
+ul {
+  margin-bottom: 20px;
+}
+span {
+  font-weight: bold;
+  
+}
